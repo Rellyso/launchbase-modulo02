@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap";
+
+:root {
+    --color-rocket: #6c4fbb;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #282a36;
+
+    font-family: 'Roboto', sans-serif;
+
+    color: white;
+}
+
+header {
+    padding: 30px;
+
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+header div {
+    text-align: center;
+}
+
+header div a {
+    text-decoration: none;
+
+    color: white;
+
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+
+    margin-left: 30px;
+    
+    /* border-bottom: var(--color-rocket) solid 2px; */
+}
+
+header div a:hover {
+    color: var(--color-rocket);
+    transition: ease .3s;
+}
+
+#wrapper {
+    text-align: center;
+
+    padding: 32px;
+}
+
+#wrapper img {
+    height: 400px;
+
+    border-radius: 50%;
+
+    border: 7px solid var(--color-rocket);
+
+    margin-bottom: 8px;
+}
+
+#wrapper h1 {
+    font-size: 62px;
+    line-height: 72px;
+
+    margin-bottom: 32px;
+}
+
+#wrapper p {
+    opacity: 0.8;
+    
+    font-size: 24px;
+    line-height: 34px;
+
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    /* text-indent: px; */
+    text-align: justify;
+
+    margin-bottom: 16px;
+}
+
+#wrapper p a {
+    text-decoration: none;
+
+    color: var(--color-rocket);
+
+    font-weight: 500;
+
+    
+    transition: all .3s ease;
+}
+
+#wrapper p a:hover {
+    color: white;
+
+    border-bottom: 2px solid var(--color-rocket);
+}
+
+#wrapper .list {
+    opacity: 0.8;
+    
+    max-width: 700px;
+
+    margin: 0 auto;
+
+    font-size: 24px;
+    line-height: 34px;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.list h3 {
+    display: flex;
+
+
+    font-size: 28px;
+    line-height: 38px;
+
+    justify-content: right;
+
+}
+
+.list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-around;
+
+    list-style: disc;
+
+    text-indent: 10px;
+}
+
+.list ul li {
+
+    justify-content: start;
+
+    list-style: disc;
+}
