@@ -28,11 +28,11 @@ header {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-header div {
+.links {
     text-align: center;
 }
 
-header div a {
+.links a {
     text-decoration: none;
 
     color: white;
@@ -46,7 +46,7 @@ header div a {
     /* border-bottom: var(--color-rocket) solid 2px; */
 }
 
-header div a:hover {
+.links a:hover {
     color: var(--color-rocket);
     transition: ease .3s;
 }
@@ -58,7 +58,7 @@ header div a:hover {
 }
 
 #wrapper img {
-    height: 400px;
+    height: 350px;
 
     border-radius: 50%;
 
@@ -68,8 +68,8 @@ header div a:hover {
 }
 
 #wrapper h1 {
-    font-size: 62px;
-    line-height: 72px;
+    font-size: 52px;
+    line-height: 62px;
 
     margin-bottom: 32px;
 }
@@ -77,16 +77,15 @@ header div a:hover {
 #wrapper p {
     opacity: 0.8;
     
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 30px;
 
     max-width: 700px;
 
-    margin: 0 auto;
-
-    /* text-indent: px; */
+    text-indent: 10px;
     text-align: justify;
-
+    
+    margin: 0 auto;
     margin-bottom: 16px;
 }
 
@@ -97,7 +96,6 @@ header div a:hover {
 
     font-weight: 500;
 
-    
     transition: all .3s ease;
 }
 
@@ -114,8 +112,8 @@ header div a:hover {
 
     margin: 0 auto;
 
-    font-size: 24px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 30px;
 
     display: flex;
     flex-direction: column;
@@ -150,3 +148,21 @@ header div a:hover {
 
     list-style: disc;
 }
+
+#footer-links {
+    position: absolute;
+
+    bottom: 0;
+
+    width: 100%;
+
+    padding: 20px;
+
+    background-color: rgba(0,0,0,0.1);
+    
+}
+
+#footer-links a {
+    border-bottom: 2px solid var(--color-rocket);
+}
+
